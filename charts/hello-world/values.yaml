@@ -1,8 +1,0 @@
-replicaCount: 1
-
-homeCloud:
-  routes:
-    - name: hello
-      service:
-        name: hello-world
-        port: 80

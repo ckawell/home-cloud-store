@@ -1,9 +1,0 @@
-pp:
-  replicaCount: 1
-
-homeCloud:
-  routes:
-    - name: gettingstarted
-      service:
-        name: getting-started-app
-        port: 80
