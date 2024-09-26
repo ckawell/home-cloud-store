@@ -3,7 +3,7 @@ app:
 
 homeCloud:
   routes:
-    - name: gettingstarted
+    - name: gettingstarted3
       service:
         name: getting-started-app
         port: 3000
