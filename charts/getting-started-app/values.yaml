@@ -1,4 +1,4 @@
-pp:
+app:
   replicaCount: 1
 
 homeCloud:
