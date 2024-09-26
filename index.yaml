@@ -17,4 +17,21 @@ entries:
     urls:
     - https://github.com/ckawell/home-cloud-store/releases/download/getting-started-app-0.0.2/getting-started-app-0.0.2.tgz
     version: 0.0.2
-generated: "2024-09-26T19:32:58.5569945Z"
+  hello-world:
+  - annotations:
+      displayName: Hello World
+    apiVersion: v2
+    appVersion: 1.27.1
+    created: "2024-09-26T19:35:30.412714047Z"
+    description: A simple "Hello World" application demonstrating a Home Cloud app.
+    digest: a1052196025855958b3fbcc87b37d477df8d4363411ece6de09d2133d23415cb
+    home: https://nginx.org/
+    icon: https://avatars.githubusercontent.com/u/1412239?s=48&v=4
+    name: hello-world
+    sources:
+    - https://github.com/nginx/nginx
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/hello-world-0.0.12/hello-world-0.0.12.tgz
+    version: 0.0.12
+generated: "2024-09-26T19:35:30.412729907Z"
