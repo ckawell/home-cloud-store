@@ -4,6 +4,22 @@ entries:
   - annotations:
       displayName: Getting Started
     apiVersion: v2
+    appVersion: 0.0.1
+    created: "2024-09-26T20:13:51.971728321Z"
+    description: Yay, it worked!
+    digest: 32b2c79dec50163a2da0facd2acaaa915d0817e792242fcc80b050512bcca668
+    home: https://github.com/ckawell/getting-started-app
+    icon: https://avatars.githubusercontent.com/u/1412239?s=48&v=4
+    name: getting-started-app
+    sources:
+    - https://github.com/ckawell/getting-started-app
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/getting-started-app-0.0.5/getting-started-app-0.0.5.tgz
+    version: 0.0.5
+  - annotations:
+      displayName: Getting Started
+    apiVersion: v2
     appVersion: 1.27.1
     created: "2024-09-26T19:51:53.045625506Z"
     description: Yay, it worked!
@@ -66,4 +82,4 @@ entries:
     urls:
     - https://github.com/ckawell/home-cloud-store/releases/download/hello-world-0.0.12/hello-world-0.0.12.tgz
     version: 0.0.12
-generated: "2024-09-26T19:51:53.045646264Z"
+generated: "2024-09-26T20:13:51.971751615Z"
