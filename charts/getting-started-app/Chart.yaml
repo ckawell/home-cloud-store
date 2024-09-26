@@ -4,7 +4,7 @@ description: Yay, it worked!
 icon: https://avatars.githubusercontent.com/u/1412239?s=48&v=4
 type: application
 version: 0.0.2
-appVersion: "1.0.0"
+appVersion: "1.27.1"
 home: https://github.com/ckawell/getting-started-app
 sources:
   - https://github.com/ckawell/getting-started-app
