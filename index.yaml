@@ -1,0 +1,20 @@
+apiVersion: v1
+entries:
+  getting-started-app:
+  - annotations:
+      displayName: Getting Started
+    apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-09-26T19:32:58.556982297Z"
+    description: Yay, it worked!
+    digest: 6c9dc06f8577e8e0acd9f448de910435d999b0fb9dbb4b02d9e07326d6dea3e4
+    home: https://github.com/ckawell/getting-started-app
+    icon: https://avatars.githubusercontent.com/u/1412239?s=48&v=4
+    name: getting-started-app
+    sources:
+    - https://github.com/ckawell/getting-started-app
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/getting-started-app-0.0.2/getting-started-app-0.0.2.tgz
+    version: 0.0.2
+generated: "2024-09-26T19:32:58.5569945Z"
