@@ -3,8 +3,8 @@ name: getting-started-app
 description: Yay, it worked!
 icon: https://avatars.githubusercontent.com/u/1412239?s=48&v=4
 type: application
-version: 0.0.4
-appVersion: "1.27.1"
+version: 0.0.5
+appVersion: "0.0.1"
 home: https://github.com/ckawell/getting-started-app
 sources:
   - https://github.com/ckawell/getting-started-app

@@ -17,7 +17,7 @@ spec:
         nodeAffinity: {{ toYaml .Values.homeCloud.nodeAffinity | nindent 12 }}
       containers:
         - name: getting-started-app
-          image: nginx:{{ .Chart.AppVersion }}
+          image: ghcr.io/ckawell/getting-started-app:{{ .Chart.AppVersion }}
           ports:
             - name: http
-              containerPort: 80 
+              containerPort: 3000
