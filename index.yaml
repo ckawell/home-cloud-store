@@ -84,6 +84,23 @@ entries:
   hello-world:
   - annotations:
       displayName: Hello World
+      status: stable
+    apiVersion: v2
+    appVersion: 1.29.1
+    created: "2025-11-28T18:49:30.669305046Z"
+    description: A simple "Hello World" application demonstrating a Home Cloud app.
+    digest: e41aea64a052df62fa8169bff8a759826f1bd13c63df2636d364e61e5df0cf31
+    home: https://nginx.org/
+    icon: https://avatars.githubusercontent.com/u/1412239?s=48&v=4
+    name: hello-world
+    sources:
+    - https://github.com/nginx/nginx
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/hello-world-0.0.16/hello-world-0.0.16.tgz
+    version: 0.0.16
+  - annotations:
+      displayName: Hello World
     apiVersion: v2
     appVersion: 1.27.1
     created: "2024-09-26T19:35:30.412714047Z"
@@ -98,4 +115,151 @@ entries:
     urls:
     - https://github.com/ckawell/home-cloud-store/releases/download/hello-world-0.0.12/hello-world-0.0.12.tgz
     version: 0.0.12
-generated: "2024-09-26T20:53:05.501706204Z"
+  home-assistant:
+  - annotations:
+      displayName: Home Assistant
+      status: alpha
+    apiVersion: v2
+    appVersion: 2025.9.4
+    created: "2025-11-28T18:49:30.818532775Z"
+    description: Open source home automation that puts local control and privacy first.
+      Powered by a worldwide community of tinkerers and DIY enthusiasts.
+    digest: 4f8c79097f7b07882f85b57268d80ab90a723d275a57799665dd7a1345240ef9
+    home: https://www.home-assistant.io/
+    icon: https://avatars.githubusercontent.com/u/13844975?s=48&v=4
+    name: home-assistant
+    sources:
+    - https://github.com/home-assistant/core
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/home-assistant-0.0.16/home-assistant-0.0.16.tgz
+    version: 0.0.16
+  immich:
+  - annotations:
+      displayName: Immich
+      status: stable
+    apiVersion: v2
+    appVersion: v1.132.1
+    created: "2025-11-28T18:49:30.969166502Z"
+    dependencies:
+    - condition: homeCloud.dependencies.postgres.install
+      name: postgres
+      repository: https://apps.home-cloud.io
+      version: 0.x.x
+    description: Immich is a high performance self-hosted photo and video management
+      solution.
+    digest: 62adc0b4806fa565d5b8bbdcf0c907e889a427947c8dc53045cea06cc3361e50
+    home: https://immich.app/
+    icon: https://avatars.githubusercontent.com/u/109746326?s=48&v=4
+    name: immich
+    sources:
+    - https://github.com/immich-app/immich
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/immich-0.0.38/immich-0.0.38.tgz
+    version: 0.0.38
+  jellyfin:
+  - annotations:
+      displayName: Jellyfin
+      status: stable
+    apiVersion: v2
+    appVersion: 10.10.7
+    created: "2025-11-28T18:49:31.135634144Z"
+    description: Jellyfin is the volunteer-built media solution that puts you in control
+      of your media.
+    digest: 2e3bb0730d51d0a187eaf8cede966a6821802a4f69cfe9869260c6bd93a2dfab
+    home: https://jellyfin.org/
+    icon: https://avatars.githubusercontent.com/u/45698031?s=48&v=4
+    name: jellyfin
+    sources:
+    - https://github.com/jellyfin/jellyfin
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/jellyfin-0.0.8/jellyfin-0.0.8.tgz
+    version: 0.0.8
+  mealie:
+  - annotations:
+      displayName: Mealie
+      status: stable
+    apiVersion: v2
+    appVersion: v3.2.1
+    created: "2025-11-28T18:49:31.271231407Z"
+    dependencies:
+    - condition: homeCloud.dependencies.postgres.install
+      name: postgres
+      repository: https://apps.home-cloud.io
+      version: 0.x.x
+    description: Mealie is an intuitive and easy to use recipe management app.
+    digest: 84af31846e5c0499e611ea8f425a65cee444fff1c6ae86ac205cc1d6a97a0c18
+    home: https://mealie.io/
+    icon: https://avatars.githubusercontent.com/u/92342333?s=48&v=4
+    name: mealie
+    sources:
+    - https://github.com/mealie-recipes/mealie
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/mealie-0.0.10/mealie-0.0.10.tgz
+    version: 0.0.10
+  memos:
+  - annotations:
+      displayName: Memos
+      status: stable
+    apiVersion: v2
+    appVersion: 0.25.1
+    created: "2025-11-28T18:49:31.431661921Z"
+    dependencies:
+    - condition: homeCloud.dependencies.postgres.install
+      name: postgres
+      repository: https://apps.home-cloud.io
+      version: 0.x.x
+    description: A privacy-first, lightweight note-taking service. Easily capture
+      and share your great thoughts.
+    digest: 1585da81ada314d18c2f692c5b6f773cbae8ebe8cc830bbd5467c869e10ac5b1
+    home: https://www.usememos.com/
+    icon: https://avatars.githubusercontent.com/u/95764151?s=48&v=4
+    name: memos
+    sources:
+    - https://github.com/usememos/memos
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/memos-0.0.9/memos-0.0.9.tgz
+    version: 0.0.9
+  postgres:
+  - annotations:
+      displayName: PostgreSQL
+      status: stable
+    apiVersion: v2
+    appVersion: pg15-v0.2.0
+    created: "2025-11-28T18:49:31.592974064Z"
+    description: PostgreSQL is a powerful, open source object-relational database
+      (with pgvecto.rs installed).
+    digest: a0e2ff5a68b10794470896d772808e5c6203e8d0beaee1d88f1119a1d2a0efee
+    home: https://www.postgresql.org/
+    icon: https://avatars.githubusercontent.com/u/177543?s=48&v=4
+    name: postgres
+    sources:
+    - https://github.com/postgres/postgres
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/postgres-0.0.14/postgres-0.0.14.tgz
+    version: 0.0.14
+  searxng:
+  - annotations:
+      displayName: SearXNG
+      status: stable
+    apiVersion: v2
+    appVersion: 2025.9.20-b7ecc1c24
+    created: "2025-11-28T18:49:31.73823169Z"
+    description: SearXNG is a free internet metasearch engine which aggregates results
+      from various search services and databases.
+    digest: 0e3e7ca0813a7689098bd9038db70709a9d51d7afe6138750427a48cb7dd19b6
+    home: https://docs.searxng.org/
+    icon: https://avatars.githubusercontent.com/u/80454229?s=48&v=4
+    name: searxng
+    sources:
+    - https://github.com/searxng/searxng
+    type: application
+    urls:
+    - https://github.com/ckawell/home-cloud-store/releases/download/searxng-0.0.6/searxng-0.0.6.tgz
+    version: 0.0.6
+generated: "2025-11-28T18:49:31.738255494Z"
